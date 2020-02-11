@@ -7,3 +7,8 @@
 
 ```
 3. I presume these passwords will get set on bootstrap and it cannot be changed/edited/removed without re-installation.
+4. Once yaml is changed according to your env, run it using below command
+```
+	kubectl -n your_namespace create -f filebeat7-k8s-es.yml
+```
+5. When we are writing this repo, the latest filebeat, ES version is 7.3 
